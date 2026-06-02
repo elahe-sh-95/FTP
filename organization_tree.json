@@ -1,0 +1,1029 @@
+{
+  "organization": "Wing FTP Server Access Control",
+  "root": {
+    "user_id": "naderpour",
+    "name": "Dr. Naderpour",
+    "role": "group_manager",
+    "access_profile": {
+      "role": "group_manager",
+      "ftp_permissions": {
+        "personal_directory": "GM_personal",
+        "shared_directories": [
+          "PM_share",
+          "TL_share",
+          "techlead_share",
+          "shared_access"
+        ],
+        "employee_personal_access": true
+      },
+      "allowed_connection_methods": [
+        "vdi",
+        "local_vpn"
+      ]
+    },
+    "direct_reports": [
+      "mokhtari",
+      "mokhtari_m",
+      "dehghani_p",
+      "arabi"
+    ],
+    "children_count": 4,
+    "children": [
+      {
+        "user_id": "mokhtari",
+        "name": "Ms. Mokhtari",
+        "role": "product_manager",
+        "access_profile": {
+          "role": "product_manager",
+          "ftp_permissions": {
+            "personal_directory": "PM_personal",
+            "shared_directories": [
+              "PM_share",
+              "techlead_share",
+              "shared_access"
+            ],
+            "employee_personal_access": false
+          },
+          "allowed_connection_methods": [
+            "vdi",
+            "local_vpn"
+          ]
+        },
+        "direct_reports": [
+          "azimi",
+          "asadi",
+          "ghaedi"
+        ],
+        "children_count": 3,
+        "children": [
+          {
+            "user_id": "azimi",
+            "name": "Mr. Azimi",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [
+              "aghashahi_az",
+              "rouhi",
+              "rahimifard",
+              "khabiri"
+            ],
+            "children_count": 4,
+            "children": [
+              {
+                "user_id": "aghashahi_az",
+                "name": "Ms. Aghashahi",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "rouhi",
+                "name": "Mr. Rouhi",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "rahimifard",
+                "name": "Mr. Rahimifard",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "khabiri",
+                "name": "Mr. Khabiri",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              }
+            ]
+          },
+          {
+            "user_id": "asadi",
+            "name": "Mr. Asadi",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [
+              "mahdieh",
+              "hashemi",
+              "naghizadeh",
+              "modarres",
+              "ghamsheh"
+            ],
+            "children_count": 5,
+            "children": [
+              {
+                "user_id": "mahdieh",
+                "name": "Ms. Mahdieh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "hashemi",
+                "name": "Mr. Hashemi",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "naghizadeh",
+                "name": "Mr. Naghizadeh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "modarres",
+                "name": "Mr. Modarres",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "ghamsheh",
+                "name": "Mr. Ghamsheh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              }
+            ]
+          },
+          {
+            "user_id": "ghaedi",
+            "name": "Mr. Ghaedi",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [],
+            "children_count": 0
+          }
+        ]
+      },
+      {
+        "user_id": "mokhtari_m",
+        "name": "Ms. Mirhosseini",
+        "role": "product_manager",
+        "access_profile": {
+          "role": "product_manager",
+          "ftp_permissions": {
+            "personal_directory": "PM_personal",
+            "shared_directories": [
+              "PM_share",
+              "techlead_share",
+              "shared_access"
+            ],
+            "employee_personal_access": false
+          },
+          "allowed_connection_methods": [
+            "vdi",
+            "local_vpn"
+          ]
+        },
+        "direct_reports": [
+          "jafari",
+          "kalami",
+          "dehghani2_tl"
+        ],
+        "children_count": 3,
+        "children": [
+          {
+            "user_id": "jafari",
+            "name": "Mr. Jafari",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [
+              "dehghani2_tm",
+              "shahsavan",
+              "darvishzadeh",
+              "dashti",
+              "abolhasanzadeh"
+            ],
+            "children_count": 5,
+            "children": [
+              {
+                "user_id": "dehghani2_tm",
+                "name": "Mr. Dehghani2",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "shahsavan",
+                "name": "Ms. Shahsavan",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "darvishzadeh",
+                "name": "Mr. Darvishzadeh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "dashti",
+                "name": "Ms. Dashti",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "abolhasanzadeh",
+                "name": "Mr. Abolhasanzadeh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              }
+            ]
+          },
+          {
+            "user_id": "kalami",
+            "name": "Mr. Kalami",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [
+              "mahdieh",
+              "hashemi",
+              "naghizadeh",
+              "modarres",
+              "ghamsheh"
+            ],
+            "children_count": 5,
+            "children": [
+              {
+                "user_id": "mahdieh",
+                "name": "Ms. Mahdieh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "hashemi",
+                "name": "Mr. Hashemi",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "naghizadeh",
+                "name": "Mr. Naghizadeh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "modarres",
+                "name": "Mr. Modarres",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "ghamsheh",
+                "name": "Mr. Ghamsheh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              }
+            ]
+          },
+          {
+            "user_id": "dehghani2_tl",
+            "name": "Mr. Dehghani2",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [],
+            "children_count": 0
+          }
+        ]
+      },
+      {
+        "user_id": "dehghani_p",
+        "name": "Mr. Dehghani",
+        "role": "product_manager",
+        "access_profile": {
+          "role": "product_manager",
+          "ftp_permissions": {
+            "personal_directory": "PM_personal",
+            "shared_directories": [
+              "PM_share",
+              "techlead_share",
+              "shared_access"
+            ],
+            "employee_personal_access": false
+          },
+          "allowed_connection_methods": [
+            "vdi",
+            "local_vpn"
+          ]
+        },
+        "direct_reports": [
+          "bilalzadeh",
+          "shams"
+        ],
+        "children_count": 2,
+        "children": [
+          {
+            "user_id": "bilalzadeh",
+            "name": "Mr. Bilalzadeh",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [
+              "zare",
+              "aghashahi_bn"
+            ],
+            "children_count": 2,
+            "children": [
+              {
+                "user_id": "zare",
+                "name": "Mr. Zare",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "aghashahi_bn",
+                "name": "Ms. Aghashahi",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              }
+            ]
+          },
+          {
+            "user_id": "shams",
+            "name": "Ms. Shams",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [
+              "deldar",
+              "karimi",
+              "babaei",
+              "ghazanfari"
+            ],
+            "children_count": 4,
+            "children": [
+              {
+                "user_id": "deldar",
+                "name": "Mr. Deldar",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "karimi",
+                "name": "Mr. Karimi",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "babaei",
+                "name": "Mr. Babaei",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "ghazanfari",
+                "name": "Mr. Ghazanfari",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "user_id": "arabi",
+        "name": "Mr. Arabi",
+        "role": "product_manager",
+        "access_profile": {
+          "role": "product_manager",
+          "ftp_permissions": {
+            "personal_directory": "PM_personal",
+            "shared_directories": [
+              "PM_share",
+              "techlead_share",
+              "shared_access"
+            ],
+            "employee_personal_access": false
+          },
+          "allowed_connection_methods": [
+            "vdi",
+            "local_vpn"
+          ]
+        },
+        "direct_reports": [
+          "nateghi",
+          "movahedi"
+        ],
+        "children_count": 2,
+        "children": [
+          {
+            "user_id": "nateghi",
+            "name": "Mr. Nateghi",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [
+              "zare",
+              "aghashahi_bn"
+            ],
+            "children_count": 2,
+            "children": [
+              {
+                "user_id": "zare",
+                "name": "Mr. Zare",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "aghashahi_bn",
+                "name": "Ms. Aghashahi",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              }
+            ]
+          },
+          {
+            "user_id": "movahedi",
+            "name": "Mr. Movahedi",
+            "role": "tech_lead",
+            "access_profile": {
+              "role": "tech_lead",
+              "ftp_permissions": {
+                "personal_directory": "TL_personal",
+                "shared_directories": [
+                  "TL_share",
+                  "shared_access"
+                ],
+                "employee_personal_access": true
+              },
+              "allowed_connection_methods": [
+                "vdi",
+                "local_vpn"
+              ]
+            },
+            "direct_reports": [
+              "mohammadi",
+              "mojibzadeh",
+              "faraji"
+            ],
+            "children_count": 3,
+            "children": [
+              {
+                "user_id": "mohammadi",
+                "name": "Mr. Mohammadi",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "mojibzadeh",
+                "name": "Mr. Mojibzadeh",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              },
+              {
+                "user_id": "faraji",
+                "name": "Mr. Faraji",
+                "role": "team_member",
+                "access_profile": {
+                  "role": "team_member",
+                  "ftp_permissions": {
+                    "personal_directory": "Employee_personal",
+                    "shared_directories": [
+                      "shared_access"
+                    ],
+                    "employee_personal_access": false
+                  },
+                  "allowed_connection_methods": [
+                    "local_only"
+                  ]
+                },
+                "direct_reports": [],
+                "children_count": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "total_users": 38,
+  "roles_summary": {
+    "group_manager": 1,
+    "product_manager": 4,
+    "tech_lead": 10,
+    "team_member": 23
+  }
+}
